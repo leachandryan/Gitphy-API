@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giftastic</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="buttonDiv"></div>
+        <br>
+        <br>
+        <div id="gif"></div>
+    </div>
+    <div id="addbox">
+        New search item: <input class="entry" type="text" name="newSearch" value="">
+        <input class="submitButton"type="submit" value="Submit">
+    </div>
+    
+    <script src="giphy.js"></script>
+</body>
+<style>
+h3{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.image{
+    width: 100%;
+    height: 175px;
+    border-style: solid;
+    border-color: black;
+}
+.button{
+    width: 10%;
+}
+#addbox{
+    float: right;
+    width: 25%;
+    margin-top: 20px;
+}
+#gif{
+    float: left;
+    width: 70%;
+    columns: 3;
+}
+</style>
+
+</html>
